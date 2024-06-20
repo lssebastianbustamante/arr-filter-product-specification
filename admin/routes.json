@@ -1,0 +1,10 @@
+{
+  "admin.app.filter-collection-update": {
+    "component": "FilterCollection",
+    "path": "/admin/app/filter-collection/update"
+  },
+  "admin.app.filter-collection-clear": {
+    "component": "ClearCollection",
+    "path": "/admin/app/filter-collection/clear"
+  }
+}

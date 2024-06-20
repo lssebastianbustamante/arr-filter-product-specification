@@ -1,0 +1,74 @@
+html,
+body,
+#render-container,
+#render-provider,
+.render-container,
+.render-provider {
+  height: 100%;
+}
+.mr1 {
+  margin: 0.325rem 0.125rem;
+}
+.mr1 .vtex-button {
+  max-height: 1rem;
+}
+.button_group {
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+.form-title,
+.vtex-input__label {
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+.vtex-input-prefix__group {
+  margin-bottom: 1rem;
+}
+.form-specfication-percentage .vtex-button,
+.form-specfication-promotion .vtex-button {
+  max-height: 40px;
+  margin: 0.325rem 0.125rem;
+}
+.form-specfication-percentage .mr1 .vtex-button,
+.form-specfication-promotion .mr1 .vtex-button {
+  max-height: unset;
+  margin: unset;
+}
+
+.form-input-radio {
+  margin-bottom: 1rem;
+}
+
+.btn-submit .vtex-button.addToCartButton-loading .vtex-button__label {
+  visibility: hidden;
+  opacity: 0;
+}
+.btn-submit .vtex-button.addToCartButton-loading {
+  background-color: #134cd8;
+}
+.btn-submit .vtex-button.addToCartButton-loading::after {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: addToCartButton-loading-spinner 1s linear infinite;
+}
+@keyframes addToCartButton-loading-spinner {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+

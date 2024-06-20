@@ -1,0 +1,12 @@
+{
+  "filter-collection.navigation.label-group": "Coleção de Filtros",
+  "filter-collection-update.navigation.label-table": "Aplicar Filtro",
+  "filter-collection-clear.navigation.label-table": "Filtro Limpo",
+  "filter-collection.navigation.search.kws": "filtros, coleção",
+  "filter-collection.navigation.table.search.kws": "filtros, coleção",
+  "filter-collection.section": "Coleção de Filtros",
+  "form.label.idCollection": "ID da Coleção",
+  "form.submitButton-aplicar": "Aplicar",
+  "form.submitButton-limpiar": "Limpar"
+
+}

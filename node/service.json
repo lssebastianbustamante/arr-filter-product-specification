@@ -1,0 +1,18 @@
+{
+  "memory": 512,
+  "ttl": 60,
+  "timeout": 15,
+  "minReplicas": 2,
+  "maxReplicas": 80,
+  "workers": 2,
+  "routes": {
+    "getNewCollection": {
+      "path": "/arr-filter-product-specification/getNewCollection/",
+      "public": true
+    },
+    "getProductSpecification": {
+      "path": "/arr-filter-product-specification/getProductSpecification",
+      "public": true
+    }
+  }
+}

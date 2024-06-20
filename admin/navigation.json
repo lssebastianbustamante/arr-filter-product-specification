@@ -1,0 +1,18 @@
+{
+  "section": "orders",
+  "titleId": "filter-collection.navigation.label-group",
+  "subSection": "Update",
+  "searchKeyWordsHelpers": "filter-collection.navigation.search.kws",
+  "subSectionItems": [
+    {
+      "labelId": "filter-collection-update.navigation.label-table",
+      "path": "/admin/filter-collection/update",
+      "searchKeyWordsHelpers": "filter-collection.navigation.table.search.kws"
+    },
+    {
+      "labelId": "filter-collection-clear.navigation.label-table",
+      "path": "/admin/filter-collection/clear",
+      "searchKeyWordsHelpers": "filter-collection.navigation.table.search.kws"
+    }
+  ]
+}
